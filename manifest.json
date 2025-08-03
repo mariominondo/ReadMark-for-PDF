@@ -1,10 +1,11 @@
 {
   "manifest_version": 3,
-  "name": "ReadMark",
-  "version": "0.1.0",
+  "name": "ReadMark-for-PDF",
+  "version": "1.0.0",
   "description": "Never lose your place in a PDF again. ReadMark automatically saves your last read page and takes you back to it instantly.",
   "permissions": [
-    "storage"
+    "storage",
+    "activeTab"
   ],
   "content_scripts": [
     {
@@ -15,5 +16,18 @@
         "scripts/content_script.js"
       ]
     }
-  ]
+  ],
+  "action": {
+    "default_icon": {
+      "16": "icons/icon16.png",
+      "48": "icons/icon48.png"
+    },
+    "default_title": "ReadMark-for-PDF",
+    "default_popup": "popup/popup.html"
+  },
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  }
 }
