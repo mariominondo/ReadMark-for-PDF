@@ -6,7 +6,9 @@
 
 ### Short Description
 
-Reading long PDF documents in your browser can be frustrating. You close the tab and your position is lost. ReadMark solves this single problem with a "fire-and-forget" solution: it seamlessly bookmarks your page in the background, ensuring your reading flow is never interrupted.
+Reading long PDF documents in your browser can be frustrating. You close the tab, and your position is lost. ReadMark solves this single problem with a "fire-and-forget" solution: it seamlessly bookmarks your page in the background, ensuring your reading flow is never interrupted.
+
+---
 
 ### ✨ Key Features
 
@@ -16,6 +18,8 @@ Reading long PDF documents in your browser can be frustrating. You close the tab
 * **Privacy-Focused:** All data is stored locally on your browser. Nothing is ever sent to a server.
 * **PDF Focused:** Activates only on PDF files, staying out of your way everywhere else.
 
+---
+
 ### ⚙️ How It Works
 
 ReadMark leverages the native capabilities of modern Chromium-based browsers (like Google Chrome, Brave, and Edge).
@@ -24,19 +28,28 @@ ReadMark leverages the native capabilities of modern Chromium-based browsers (li
 2.  **Local Storage:** When a page change is detected, ReadMark saves the page number and the PDF's URL into your browser's local storage using the `chrome.storage` API.
 3.  **Automatic Restoration:** The next time you open that same PDF, the extension checks if a saved page exists for that URL and automatically navigates you there.
 
+---
+
 ### 🚀 Installation
 
 #### From the Official Store (Once Published)
+
 1.  Go to the [Chrome Web Store / Brave Extensions Store link].
 2.  Click "Add to Browser".
 3.  That's it! The extension will start working immediately.
 
 #### Manual Installation for Development
-1.  Clone this repository: `[git clone https://github.com/your-username/ReadMark.git](https://github.com/mariominondo/ReadMark-for-PDF)`
+
+1.  Clone this repository:
+    ```
+    git clone [https://github.com/mariominondo/ReadMark-for-PDF](https://github.com/mariominondo/ReadMark-for-PDF)
+    ```
 2.  Open your browser and navigate to `chrome://extensions` or `brave://extensions`.
 3.  Enable "Developer mode" (usually a toggle in the top-right corner).
 4.  Click "Load unpacked".
 5.  Select the cloned `ReadMark-for-PDF` directory.
+
+---
 
 ### 🤝 How to Contribute
 

@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "ReadMark",
+  "version": "0.1.0",
+  "description": "Never lose your place in a PDF again. ReadMark automatically saves your last read page and takes you back to it instantly.",
+  "permissions": [
+    "storage"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "*://*/*.pdf"
+      ],
+      "js": [
+        "scripts/content_script.js"
+      ]
+    }
+  ]
+}
