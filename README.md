@@ -32,11 +32,11 @@ ReadMark leverages the native capabilities of modern Chromium-based browsers (li
 3.  That's it! The extension will start working immediately.
 
 #### Manual Installation for Development
-1.  Clone this repository: `git clone https://github.com/your-username/ReadMark.git`
+1.  Clone this repository: `[git clone https://github.com/your-username/ReadMark.git](https://github.com/mariominondo/ReadMark-for-PDF)`
 2.  Open your browser and navigate to `chrome://extensions` or `brave://extensions`.
 3.  Enable "Developer mode" (usually a toggle in the top-right corner).
 4.  Click "Load unpacked".
-5.  Select the cloned `ReadMark` directory.
+5.  Select the cloned `ReadMark-for-PDF` directory.
 
 ### 🤝 How to Contribute
 
